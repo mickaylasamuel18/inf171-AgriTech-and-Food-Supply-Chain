@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farm to Shelf -  Home </title>
+<link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+   <header>
+    <h1>Farm to Shelf</h1>
+    <button id="menu-button">Menu</button>
+  </header>
+
+
+  <nav id="menu">
+    <a data-page="home" class="active">Home</a>
+    <a data-page="topic1">1. Data and Information</a>
+    <a data-page="topic2">2. Data Ethics and POPIA</a>
+    <a data-page="topic3">3. AI Decision Support</a>
+    <a data-page="topic4">4. Enterprise Systems</a>
+    <a data-page="topic5">5. Tailoring Systems</a>
+  </nav>
+
+  <main>
+
+    <section id="home" class="show">
+
+    
+      <div class="banner">
+        <h2>Better information, from farm to shelf</h2>
+        <p>
+          How our cooperative can manage, protect and use the information
+          that moves between farmers, the processor and retailers.
+        </p>
+        <a class="start-button" data-page="topic1" href="#">Start reading</a>
+      </div>
+
+     
+      <h3>The supply chain</h3>
+      <div class="chain">
+        <div class="step">
+          <b>Farmers</b>
+          <p>Plant, harvest and record yields</p>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="step">
+          <b>Processor</b>
+          <p>Grades, packs and stores the crop</p>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="step">
+          <b>Retailers</b>
+          <p>Order, price and sell to customers</p>
+        </div>
+      </div>
+
+     
+      <h3>Topics</h3>
+      <div class="topic-grid">
+        <a class="topic-box" data-page="topic1" href="#">
+          <b>1. Data and information</b>
+          <p>Managing data, dashboards and information quality</p>
+        </a>
+        <a class="topic-box deep" data-page="topic2" href="#">
+          <b>2. Data ethics and POPIA</b>
+          <p>Who owns the farmers' data (deep dive)</p>
+        </a>
+        <a class="topic-box" data-page="topic3" href="#">
+          <b>3. AI decision support</b>
+          <p>Planting, logistics and pricing</p>
+        </a>
+        <a class="topic-box" data-page="topic4" href="#">
+          <b>4. Enterprise systems</b>
+          <p>Connecting farm, processor and retailers</p>
+        </a>
+        <a class="topic-box" data-page="topic5" href="#">
+          <b>5. Tailoring systems</b>
+          <p>Making systems fit the cooperative</p>
+        </a>
+      </div>
+    </section>
+
+
+    <section id="topic1">
+      <h2>1. Data and information management</h2>
+      <div class="todo">
+        <p><b>Content to be added by Member C</b></p>
+        <ul>
+          <li>Data and information management, visualisation, dashboards, information quality</li>
+          <li>One embedded dashboard or interactive diagram (yield, logistics or pricing)</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="topic2">
+      <h2>2. Data ethics, privacy and POPIA (deep dive)</h2>
+      <div class="todo">
+        <p><b>Content to be added by Member B</b></p>
+        <ul>
+          <li>Farmer data ownership, consent, sharing with processor and retailers</li>
+          <li>POPIA obligations, practical guidance and real examples</li>
+          <li>Source list for every claim</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="topic3">
+      <h2>3. AI and decision support</h2>
+      <div class="todo">
+        <p><b>Content to be added by Member D</b></p>
+        <ul>
+          <li>AI and decision support for planting, logistics and pricing</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="topic4">
+      <h2>4. Enterprise systems and integration</h2>
+      <div class="todo">
+        <p><b>Content to be added by Member D</b></p>
+        <ul>
+          <li>Enterprise systems and integration between farm, processor and retailers</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="topic5">
+      <h2>5. Adapting information systems to the cooperative</h2>
+
+      <p>
+        A system made for a big commercial farm will not always suit our cooperative.
+        Our farmers have different farm sizes, languages and internet access.
+        If the system does not fit them, they will not use it.
+      </p>
+
+      <h3>What each group needs</h3>
+      <table>
+        <tr>
+          <th>Group</th>
+          <th>What they need</th>
+        </tr>
+        <tr>
+          <td>Farmers</td>
+          <td>Easy way to record harvests on a phone, even without signal</td>
+        </tr>
+        <tr>
+          <td>Processor</td>
+          <td>Grading and tracking of deliveries back to each farm</td>
+        </tr>
+        <tr>
+          <td>Retailers</td>
+          <td>Simple ordering and delivery information</td>
+        </tr>
+      </table>
+
+      <h3>Ways to adapt a system</h3>
+      <ul>
+        <li><b>Configure:</b> change the settings (add our crops, units and grades)</li>
+        <li><b>Customise:</b> add extra features (for example a temperature field)</li>
+        <li><b>Build new:</b> only if nothing else works, because it costs the most</li>
+      </ul>
+
+      <h3>Rolling it out</h3>
+      <ol>
+        <li>Ask the farmers what they need</li>
+        <li>Test with a few farms first</li>
+        <li>Train people</li>
+        <li>Fix problems, then add more farms</li>
+      </ol>
+
+      <h3>Risks</h3>
+      <button id="risk-button">Hide risks</button>
+
+      <div id="risk-box">
+        <ul>
+          <li>Too many changes make updates expensive</li>
+          <li>Farmers may stop using it if it is too hard</li>
+          <li>Data could be shared without permission (see <a data-page="topic2" href="#">Topic 2</a>)</li>
+        </ul>
+      </div>
+
+      <h3>Sources</h3>
+      <p>(add your own sources here)</p>
+    </section>
+
+  </main>
+
+  <footer>Agricultural Technology and Food Supply Chain</footer>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
