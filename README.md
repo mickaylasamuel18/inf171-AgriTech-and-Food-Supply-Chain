@@ -18,6 +18,8 @@ script.js | menu, switching between topics, and the show/hide risks button
 Topic 5 explains why information systems need to be adapted for the cooperative, since our farmers differ in farm size, language and internet access. It compares three ways to adapt a system (configure, customise or build new), gives a rollout plan, and lists the risks.
 
 
+
+
 Farm to Shelf: Emaan [Deep-Dive Writer]
 
 ## What I was responsible for
