@@ -36,8 +36,8 @@ Topic2_Sources.docx | the 13 numbered sources behind the bracketed numbers in th
 ## Topic 2
 Topic 2 explains, in plain language, who controls the farmers' data and what POPIA requires of the cooperative, the processor and the retailers. It covers what valid consent looks like for farmers, how data can be shared and kept secure, and ends with a practical checklist for the cooperative.
 
-Farm to Shelf: Andile
-## What I was responsible for
+
+## What I was responsible for : Andile 
 ## Topic 3: 
 AI and Decision Support
 Wrote the full content for Section 3 of the Farm to Shelf website. Covered:
