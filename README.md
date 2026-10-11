@@ -36,3 +36,42 @@ Topic2_Sources.docx | the 13 numbered sources behind the bracketed numbers in th
 ## Topic 2
 Topic 2 explains, in plain language, who controls the farmers' data and what POPIA requires of the cooperative, the processor and the retailers. It covers what valid consent looks like for farmers, how data can be shared and kept secure, and ends with a practical checklist for the cooperative.
 
+Farm to Shelf: Andile
+## Topic 3: 
+AI and Decision Support
+Wrote the full content for Section 3 of the Farm to Shelf website. Covered:
+
+Why AI for the cooperative – how existing farm data can be turned into better decisions.
+
+AI for planting decisions – data needed (yields, weather, soil, prices) and practical examples.
+
+AI for logistics – predicting harvest volumes and planning collection routes to cut costs and spoilage.
+
+AI for pricing – using market data and grades to negotiate fair prices with retailers.
+
+Limits of AI – bad data, loss of local knowledge, bias, and ethical concerns.
+
+Human-in-the-loop – keeping AI explainable, challengeable, reviewed, and recorded.
+
+POPIA and AI – linking consent, automated decision-making (s71), and farmers' rights.
+
+Simple pilot approach – starting small with one decision and a few farms.
+
+## Topic 4:
+Enterprise Systems and Integration
+Wrote the full content for Section 4 of the website. Covered:
+
+What an enterprise system is – connecting farm, processor, and retail levels.
+
+The problem with silos – delays, errors, disputes, and waste from disconnected data.
+
+What integration looks like – farmer app → cooperative dashboard → processor system → retailer portal → payment system.
+
+Types of enterprise systems – ERP, SCM, CRM, and FMS with a comparison table.
+
+Integration challenges – incompatible systems, connectivity, digital literacy, cost, and data ownership.
+
+A realistic starting point – from shared spreadsheets to mobile forms to a full system.
+
+Benefits of integration – fewer errors, faster payments, better planning, stronger negotiation, POPIA compliance.
+
