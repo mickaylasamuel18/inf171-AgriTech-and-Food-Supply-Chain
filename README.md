@@ -54,7 +54,7 @@ Limits of AI – bad data, loss of local knowledge, bias, and ethical concerns.
 
 Human-in-the-loop – keeping AI explainable, challengeable, reviewed, and recorded.
 
-POPIA and AI – linking consent, automated decision-making (s71), and farmers' rights.
+POPIA and AI – linking consent, automated decision-making, and farmers' rights.
 
 Simple pilot approach – starting small with one decision and a few farms.
 
