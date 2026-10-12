@@ -1,5 +1,5 @@
-# inf171-AgriTech-and-Food-Supply-Chain
-Farm to Shelf: Mickayla [Web Led]
+# inf171-AgriTech-and-Food-Supply-Chain - FARM TO SHELF
+ Mickayla [Web Led]
 
 ## What I was responsible for
 As Web Lead, my tasks were to: 
@@ -19,8 +19,7 @@ Topic 5 explains why information systems need to be adapted for the cooperative,
 
 
 
-
-## Farm to Shelf: Emaan [Deep-Dive Writer]
+ Emaan [Deep-Dive Writer]
 
 ## What I was responsible for
 As Deep-Dive Writer, my tasks were to:
@@ -37,9 +36,9 @@ Topic2_Sources.docx | the 13 numbered sources behind the bracketed numbers in th
 Topic 2 explains, in plain language, who controls the farmers' data and what POPIA requires of the cooperative, the processor and the retailers. It covers what valid consent looks like for farmers, how data can be shared and kept secure, and ends with a practical checklist for the cooperative.
 
 
-## What I was responsible for : Andile 
+Andile - AI and Decision Support
 ## Topic 3: 
-AI and Decision Support
+
 Wrote the full content for Section 3 of the Farm to Shelf website. Covered:
 
 Why AI for the cooperative – how existing farm data can be turned into better decisions.
