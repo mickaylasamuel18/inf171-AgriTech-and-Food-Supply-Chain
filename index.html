@@ -84,21 +84,239 @@
 
 
     <section id="topic1">
-      <h2>1. Data and information management</h2>
-      <div class="todo">
-        <p><b>Content to be added by Member C</b></p>
-        <ul>
-          <li>Data and information management, visualisation, dashboards, information quality</li>
-          <li>One embedded dashboard or interactive diagram (yield, logistics or pricing)</li>
-        </ul>
-      </div>
-    </section>
+        <h2>1. Data and information management</h2>
+        <div class="mc-written">
+          <h3>Data versus information</h3>
+          <p>
+            Data consists of individual recorded facts such as crop types,
+            harvest dates and delivery weights. Information comes from
+            organising or analysing those facts to answer a question.
+          </p>
+          <p>
+            <strong>Agricultural example:</strong> A farmer records tomato
+            harvests of 200 kg, 250 kg and 300 kg over three days. The
+            calculated 750 kg total helps the cooperative plan collection.
+          </p>
+          <p>
+            <strong>Practical action: </strong> Calculate daily harvest totals
+            for each crop before arranging transport.
+          </p>
+          <h3>Collecting data</h3>
+          <p>
+            Farmers, processors and retailers should record information at the
+            relevant stage of the supply chain. Common fields, such as batch
+            numbers, dates and quantities in kilograms, help connect the records
+            Food traceability follows produce through the supply chain
+          </p>
+          <p>
+            <strong>Agricultural example:</strong> A farmer records a spinach
+            batch number, harvest date and weight. The processor records the
+            same batch number when receiving it.
+          </p>
+          <p>
+            <strong>Practical action:</strong> Use a standard collection form
+            with required fields for batch number, crop, date and quantity.
+          </p>
+          <h3>Storing and updating data</h3>
+          <p>
+            Records could be stored in a shared database, with access
+            appropriate to each persons responsibilities. Staff should check
+            entries, correct errors and record changes. Regular backups provide
+            recovery copies if the main system fails
+          </p>
+          <p>
+            <strong>Agricultural example:</strong> A potato delivery is entered
+            as 800 kg, but the verified weighing slip shows 780 kg. An
+            authorised employee corrects the entry and records the reason.
+          </p>
+          <p>
+            <strong>Practical action:</strong> Assign a staff member to check
+            delivery entries against weighing slips and maintain a correction
+            log.
+          </p>
+          <h3>Sharing data</h3>
+          <p>
+            Farmers can share expected harvest quantities so the processor can
+            plan collection and capacity. The processor can share accepted
+            quantities and availability, while retailers share orders and stock
+            requirements.
+          </p>
+          <p>
+            <strong>Agricultural example:</strong> Farmers forecast 2,000 kg of
+            tomatoes for Friday. The processor uses the forecast to plan
+            collection and packing, then compares available produce with
+            retailer orders.
+          </p>
+          <p>
+            <strong>Practical action:</strong> Establish a daily deadline for
+            sharing harvest forecasts, processing updates and retailer orders.
+          </p>
+          <h3>Information quality</h3>
+          <p>
+            Accurate records reflect what happened. Complete records contain the
+            necessary details. Consistent records use compatible units and
+            formats. Timely records are available when decisions must be made.
+            These are recognised data-quality dimensions
+          </p>
+          <p>
+            <strong>Agricultural example:</strong> A spinach record shows 500 kg
+            delivered but 550 kg accepted. This contradiction needs
+            investigation before the figures are used.
+          </p>
+          <p>
+            <strong>Practical action:</strong> Add validation checks that flag
+            missing batch numbers, duplicate records and accepted quantities
+            greater than delivered quantities.
+          </p>
+          <h3>Data visualisation</h3>
+          <p>
+            Charts make comparisons easier to see. The dashboard compares
+            harvested and accepted quantities across crops, while numerical
+            labels and the delivery table provide exact values.
+          </p>
+          <p>
+            <strong>Agricultural example:</strong> A chart shows 1,000 kg of
+            tomatoes harvested and 800 kg accepted, compared with 600 kg of
+            spinach harvested and 570 kg accepted. Users can compare the gaps,
+            although the chart does not explain their causes.
+          </p>
+          <p>
+            <strong>Practical action:</strong> Label every chart with its units
+            and use the same scale when comparing quantities.
+          </p>
+          <h3>Dashboard usefulness</h3>
+          <p>
+            Crop and week filters let users focus on particular records.
+            Rejection and on-time rates can highlight areas for investigation.
+            The fictional dataset does not include the causes of rejection or
+            delays.
+          </p>
+          <p>
+            <strong>Agricultural example:</strong> Selecting Tomatoes and Week 2
+            shows a 15% rejection rate and 60% on-time deliveries. These figures
+            identify issues to investigate rather than explain why they
+            happened.
+          </p>
+          <p>
+            <strong>Practical action:</strong> Review the dashboard weekly and
+            investigate concerning figures using rejection reports and delivery
+            logs.
+          </p>
+          <h3>References</h3>
+          <ol>
+            <li id="mc-ref1">
+              Food and Agriculture Organization of the United Nations. (n.d.).
+              <a
+                href="https://www.fao.org/food-safety/food-control-systems/traceability---recalls/en"
+                >Traceability and recalls</a
+              >. Accessed 9 October 2026.
+            </li>
+            <li id="mc-ref2">
+              UK Government. (2020).
+              <a
+                href="https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework"
+                >The Government Data Quality Framework</a
+              >. Accessed 9 October 2026.
+            </li>
+          </ol>
+          <p>
+            The references support traceability and data-quality principles. The
+            examples and proposed actions are illustrative applications. The UK
+            framework is general guidance, not South African agricultural
+            legislation.
+          </p>
+        </div>
+        <!-- Member C: technical dashboard; educational text above remains student-authored. -->
+        <div class="mc-dashboard" aria-labelledby="mc-title">
+          <h3 id="mc-title">Farm-to-Retail Delivery Dashboard</h3>
+          <p class="mc-note">
+            Demonstration only: fictional crop and delivery records. Not live
+            cooperative data.
+          </p>
+          <div class="mc-filters">
+            <label
+              >Crop
+              <select id="mc-crop">
+                <option value="all">All crops</option>
+                <option>Tomatoes</option>
+                <option>Spinach</option>
+                <option>Potatoes</option>
+              </select></label
+            >
+            <label
+              >Week
+              <select id="mc-week">
+                <option value="all">All weeks</option>
+                <option value="1">Week 1</option>
+                <option value="2">Week 2</option>
+                <option value="3">Week 3</option>
+              </select></label
+            >
+            <button type="button" id="mc-reset">Reset filters</button>
+            <button type="button" id="mc-download">
+              Download filtered CSV
+            </button>
+          </div>
+          <div id="mc-summary" class="mc-cards" aria-live="polite"></div>
+          <h4>Harvested and accepted produce (kg)</h4>
+          <div class="mc-legend">
+            <span><i class="mc-harvest"></i> Harvested</span
+            ><span><i class="mc-accepted"></i> Accepted by processor</span>
+          </div>
+          <div
+            id="mc-chart"
+            aria-label="Harvested and accepted kilograms by crop"
+          ></div>
+          <h4>Delivery records</h4>
+          <div
+            class="mc-table-scroll"
+            tabindex="0"
+            role="region"
+            aria-label="Delivery records; scroll horizontally on small screens"
+          >
+            <table>
+              <caption>
+                Filtered fictional records
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Week</th>
+                  <th scope="col">Crop</th>
+                  <th scope="col">Harvested (kg)</th>
+                  <th scope="col">Delivered (kg)</th>
+                  <th scope="col">Accepted (kg)</th>
+                  <th scope="col">Rejected (kg)</th>
+                  <th scope="col">On time / total</th>
+                </tr>
+              </thead>
+              <tbody id="mc-rows"></tbody>
+            </table>
+          </div>
+          <details>
+            <summary>Calculation details</summary>
+            <ul>
+              <li>Rejected kg = delivered kg minus accepted kg.</li>
+              <li>
+                Not delivered kg = harvested kg minus delivered kg; its cause is
+                not recorded.
+              </li>
+              <li>
+                Rejection rate = total rejected kg / total delivered kg × 100.
+              </li>
+              <li>
+                On-time rate = total on-time deliveries / total deliveries ×
+                100.
+              </li>
+            </ul>
+          </details>
+          <noscript>This dashboard requires JavaScript.</noscript>
+        </div>
+      </section>
 
 
     <section id="topic2">
       <h2>2. Data ethics, privacy and POPIA (deep dive)</h2>
       <div class="todo">
-        <p><b>Content to be added by Member B</b></p>
         <ul>
           <li>Farmer data ownership, consent, sharing with processor and retailers</li>
           <li>POPIA obligations, practical guidance and real examples</li>
